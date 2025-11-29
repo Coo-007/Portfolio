@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio Futuriste - Ingénieur Logiciel & Robotique</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background animé -->
+    <div class="bg-animation">
+        <div class="bg-grid"></div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Ehud Edoh</div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#parcours">Parcours</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Section Hero -->
+        <!-- Section Hero -->
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <h1>Ingénieur Logiciel & <span class="highlight">Expert en Technologies Émergentes</span></h1>
+                <p>Je conçois des systèmes intelligents qui fusionnent le software engineering, la robotique, l'IoT, l'IA et la cybersécurité pour créer l'avenir technologique.</p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes réalisations</a>
+                    <a href="#contact" class="btn">Collaborer</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-container">
+                    <img src="profile.webp" alt="Votre Nom - Ingénieur Logiciel" class="profile-photo">
+                    <div class="profile-glow"></div>
+                    <div class="tech-icons">
+                        <div class="tech-icon" style="--delay: 0s">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="tech-icon" style="--delay: 0.5s">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="tech-icon" style="--delay: 1s">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="tech-icon" style="--delay: 1.5s">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Section Expertise -->
+    <section id="expertise" class="expertise">
+        <h2 class="section-title">Domaines d'Expertise</h2>
+        <div class="expertise-grid">
+            <div class="expertise-card">
+                <div class="expertise-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Software Engineering</h3>
+                <p>Architecture logicielle avancée, développement full-stack, systèmes distribués et microservices.</p>
+                <div class="expertise-tech">
+                    <span>Python</span>
+                    <span>C++</span>
+                    <span>Java</span>
+                </div>
+            </div>
+            
+            <div class="expertise-card">
+                <div class="expertise-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>Robotique & IoT</h3>
+                <p>Systèmes embarqués, automatisation industrielle, drones autonomes et réseaux de capteurs intelligents.</p>
+                <div class="expertise-tech">
+                    <span>Arduino</span>
+                    <span>Raspberry Pi</span>
+                    <span>Computer Vision</span>
+                </div>
+            </div>
+            
+            <div class="expertise-card">
+                <div class="expertise-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Intelligence Artificielle</h3>
+                <p>Machine Learning, Deep Learning, traitement du langage naturel et systèmes de recommandation avancés.</p>
+                <div class="expertise-tech">
+                    <span>PyTorch</span>
+                    <span>OpenCV</span>
+                    <span>Computer Vision</span>
+                </div>
+            </div>
+            
+            <div class="expertise-card">
+                <div class="expertise-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Cybersécurité</h3>
+                <p>Sécurité des systèmes critiques et analyse de vulnérabilités.</p>
+                <div class="expertise-tech">
+                    <span>Pentesting</span>
+                    <span>SIEM</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projects">
+        <h2 class="section-title">Projets Réalisés</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img" style="background: linear-gradient(45deg, #00f3ff, #0066ff);"></div>
+                <div class="project-content">
+                    <h3>Système Robotique Autonome</h3>
+                    <p>Plateforme robotique intelligente utilisant l'IA pour la navigation autonome et la détection d'obstacle.</p>
+                    <div class="project-tags">
+                        <div class="project-tag">OpenCV</div>
+                        <div class="project-tag">Computer Vision</div>
+                        <div class="project-tag">Python</div>
+                        <div class="project-tag">Arduino</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-img" style="background: linear-gradient(45deg, #ff00e6, #cc00ff);"></div>
+                <div class="project-content">
+                    <h3>Système d'irrigation IoT autonome</h3>
+                    <p>automatisation d'arrosage de plantations pour gestion efficace de l'eau.</p>
+                    <div class="project-tags">
+                        <div class="project-tag">Moisture Sensor</div>
+                        <div class="project-tag">Arduino</div>
+                        <div class="project-tag">C++</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-img" style="background: linear-gradient(45deg, #00ff9d, #00cc66);"></div>
+                <div class="project-content">
+                    <h3>Algorithme de Cybersécurité IA</h3>
+                    <p>Système de détection d'anomalies utilisant le machine learning pour identifier les menaces.</p>
+                    <div class="project-tags">
+                        <div class="project-tag">Machine Learning</div>
+                        <div class="project-tag">Python</div>
+                        <div class="project-tag">TensorFlow</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Parcours -->
+    <section id="parcours" class="timeline">
+        <h2 class="section-title">Parcours Professionnel</h2>
+        <div class="timeline-container">
+            <div class="timeline-item">
+                <div class="timeline-date">2025 - Présent</div>
+                <div class="timeline-content">
+                    <h3>Software Engineer - TechRobotics</h3>
+                    <p>Développement d'architectures logicielles pour systèmes robotiques autonomes et intégration d'IA.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">2023 - 2024</div>
+                <div class="timeline-content">
+                    <h3>Ingénieur en Robotique</h3>
+                    <p>Conception de robots d'expérimentions et systèmes embarqués.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">2018 - 2023</div>
+                <div class="timeline-content">
+                    <h3>Ingénieur en électronique</h3>
+                    <p>Conception de circuits électroniques avancés.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Collaborons Ensemble</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h3>Email</h3>
+                        <p>ehudedoh@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div>
+                        <h3>Téléphone</h3>
+                        <p>+228 70 95 56 20</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div>
+                        <h3>Localisation</h3>
+                        <p>Togo, Lome-Akato</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" class="form-input" id="name" placeholder=" " required>
+                    <label for="name" class="form-label">Nom complet</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-input" id="email" placeholder=" " required>
+                    <label for="email" class="form-label">Adresse email</label>
+                </div>
+                <div class="form-group">
+                    <select class="form-input" id="project-type">
+                        <option value="">Type de projet</option>
+                        <option value="software">Software Engineering</option>
+                        <option value="robotics">Robotique & IoT</option>
+                        <option value="ai">Intelligence Artificielle</option>
+                        <option value="security">Cybersécurité</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-input" id="message" placeholder=" " required></textarea>
+                    <label for="message" class="form-label">Description du projet</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer la proposition</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Coo-007" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ehud-edoh-76911b372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://x.com/MasterCool12694?t=LEpTZQ6scAG70kQCKfW-5w&s=08" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/share/17hKdzYWmE/" class="social-link"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p>&copy; 2023 Ehud Edoh Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
